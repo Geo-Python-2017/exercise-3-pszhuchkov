@@ -7,29 +7,31 @@ Created on Tue Sep 19 11:19:21 2017
 @author: Henrikki Tenkanen
 """
 
+# Station names
+stations = ['Hanko Russarö', 'Heinola Asemantaus', 'Helsinki Kaisaniemi', 
+            'Helsinki Malmi airfield', 'Hyvinkää Hyvinkäänkylä', 'Joutsa Savenaho', 
+            'Juuka Niemelä', 'Jyväskylä airport', 'Kaarina Yltöinen', 'Kauhava airfield', 
+            'Kemi Kemi-Tornio airport', 'Kotka Rankki', 'Kouvola Anjala', 
+            'Kouvola Utti airport', 'Kuopio Maaninka', 'Kuusamo airport', 
+            'Lieksa Lampela', 'Mustasaari Valassaaret', 'Parainen Utö', 'Pori airport', 
+            'Rovaniemi Apukka', 'Salo Kärkkä', 'Savonlinna Punkaharju Laukansaari', 
+            'Seinäjoki Pelmaa', 'Siikajoki Ruukki', 'Siilinjärvi Kuopio airport', 
+            'Tohmajärvi Kemie', 'Utsjoki Nuorgam', 'Vaala Pelso', 'Vaasa airport', 
+            'Vesanto Sonkari', 'Vieremä Kaarakkala', 'Vihti Maasoja', 'Ylitornio Meltosjärvi']
+
 # Latitude coordinates of Weather stations 
-lat = [68.6, 64.14, 65.02, 63.45, 59.77, 59.84, 61.2, 
-       60.18, 60.25, 60.6, 61.05, 68.61, 59.93, 60.12, 
-       61.88, 63.23, 61.85, 62.4, 61.86, 60.39, 64.28, 
-       62.18, 62.33, 63.12, 65.78, 60.38, 60.7, 60.9, 
-       63.72, 63.14, 65.99, 66.37, 60.96, 61.04, 59.96, 
-       63.32, 62.66, 60.24, 61.69, 61.69, 63.44, 60.51, 
-       64.93, 59.78, 61.47, 66.56, 66.58, 60.37, 61.8, 
-       67.29, 62.94, 64.68, 63.01, 67.82, 68.08, 62.24, 
-       60.52, 69.76, 70.08, 64.5, 63.06, 60.33, 62.92, 
-       63.84, 60.42, 66.53, 62.53]
+lat = [59.77, 61.2, 60.18, 60.25, 60.6, 61.88, 63.23, 62.4,
+       60.39, 63.12, 65.78, 60.38, 60.7, 60.9, 63.14, 65.99,
+       63.32, 63.44, 59.78, 61.47, 66.58, 60.37, 61.8, 62.94,
+       64.68, 63.01, 62.24, 70.08, 64.5, 63.06, 62.92, 63.84,
+       60.42, 66.53]
 
 # Longitude coordinates of Weather stations 
-lon = [23.58, 25.42, 24.73, 24.44, 22.95, 23.25, 26.05,
-       24.94, 25.05, 24.8, 25.04, 27.42, 24.01, 19.9, 
-       26.09, 29.23, 24.29, 25.67, 24.8, 22.55, 27.67, 
-       22.8, 21.19, 23.04, 24.58, 26.96, 26.81, 26.95, 
-       23.14, 27.31, 29.23, 29.31, 25.63, 28.15, 19.95, 
-       30.05, 29.61, 24.05, 27.2, 27.21, 21.07, 24.65, 
-       25.37, 21.37, 21.79, 25.84, 26.01, 23.11, 29.32, 
-       28.18, 22.49, 25.09, 27.8, 27.75, 27.19, 30.35, 
-       22.28, 27.01, 27.9, 26.42, 21.75, 24.96, 26.42, 
-       27.22, 24.4, 24.65, 24.22]
+lon = [22.95, 26.05, 24.94, 25.05, 24.8, 26.09, 29.23, 25.67, 
+       22.55, 23.04, 24.58, 26.96, 26.81, 26.95, 27.31, 29.23, 
+       30.05, 21.07, 21.37, 21.79, 26.01, 23.11, 29.32, 22.49, 
+       25.09, 27.8, 30.35, 27.9, 26.42, 21.75, 26.42, 27.22, 
+       24.4, 24.65]
 
 # 
 

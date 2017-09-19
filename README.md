@@ -26,7 +26,6 @@ For this problem you will need to create a new script file `station_name_generat
        'Station_20.txt']
       ```
 
-
 **Your score on this problem will be based on following criteria:**
 
  - Create and use variables to produce the desired text format
@@ -46,7 +45,7 @@ In this problem your aim is to classify daily temperatures stored in `temperatur
   3. **Comfortable** ==> temperatures between +2 and +15 degrees (Celsius)
   4. **Warm** ==> temperatures above +15 degrees (Celsius)
 
-Fill in the missing parts in the starter code [classify_temperatures.py](classify_temperatures.py).
+To solve this problem, you should modify and fill in the missing parts in the starter code [classify_temperatures.py](classify_temperatures.py).
 
 **Your score on this problem will be based on following criteria:**
 
@@ -59,17 +58,51 @@ Fill in the missing parts in the starter code [classify_temperatures.py](classif
 
 ## Problem 3 - Classifying locations
 
-Following map shows the locations of the weather stations (as blue points) in Finland that are more than 50 years old [1].
+Following map shows the locations of the weather stations (as blue points) in Finland that are more than 70 years old [1].
 In this problem we are interested to find out whether the station network was equally distributed across Finland
 fifty years ago. We have divided Finland into four geographical zones (i.e. North West, North East, South West, South East)
-according the approximate center point of Finnish mainland at 64.5 (latitude) and 26.3 (longitude).
+according the approximate center point of Finnish mainland located at `26.3, 64.5` (lon-lat in decimal degrees).
 
 ![](img/FMI_stations_50_years_older.png)
 
+In [classify_locations.py](classify_locations.py) starter-script we have given you the coordinates of 34 weather stations.
+The location of a single station is determined with a pair of latitude and longitude coordinates.
+The coordinates of all the stations are separated into two lists (`lat` and `lon`) and the names of the stations are in `stations`
+list:
 
-Your job is to count the number of weather stations located in different zones. You should also report the share
-of weather stations that each zone has so we can evaluate if certain zone was over/under-represented fifty years ago.
+  ```python
+  # Example showing the information for the first 8 stations
+  stations = ['Hanko Russarö', 'Heinola Asemantaus', 'Helsinki Kaisaniemi',
+            'Helsinki Malmi airfield', 'Hyvinkää Hyvinkäänkylä', 'Joutsa Savenaho',
+            'Juuka Niemelä', 'Jyväskylä airport']
 
+  # Latitude coordinates
+  lat = [59.77, 61.2, 60.18, 60.25, 60.6, 61.88, 63.23, 62.4]
+
+  # Longitude coordinates
+  lon = [22.95, 26.05, 24.94, 25.05, 24.8, 26.09, 29.23, 25.67]
+  ```
+
+From these lists, you would get e.g. the location of the first station by combining the latitude and longitude coordinates
+from coordinate lists, and the name of that station from `stations` list at index[0].
+
+**Overview**: In this problem your job is to count the number of weather stations located in different zones. You should also report the share
+of weather stations that each zone has that could be used to evaluate if certain zone was over/under-represented fifty years ago.
+
+To solve this problem, you should modify and fill in the missing parts
+in the starter code [classify_locations.py](classify_locations.py). The script should do following:
+
+ 1. Create four lists for geographical zones in Finland (i.e. NW, NW, SW, SE)
+
+ 2. Iterate over coordinates and determine to which geographical zone the station belongs
+
+   2.1 You should use a conditional statement to find out if the latitude coordinate of a station
+       is either North or South of the center point of Finland (`26.3, 64.5`) **AND** if the longitude location
+       is West or East from that center point.
+   2.2 You should insert the name of the station into the correct geographical zone list (step 1)
+
+ 3. Print out the names of stations at each geographical zone
+ 4. Calculate and print the share of stations at each zone (the total number of stations equals to 100 %)
 
 [1]: The locations and the age of weather stations were obtained from: http://en.ilmatieteenlaitos.fi/observation-stations
 
