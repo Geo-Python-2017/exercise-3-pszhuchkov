@@ -78,6 +78,8 @@ In this problem we are interested to find out whether the station network was eq
 seventy years ago. We have divided Finland into four geographical zones (i.e. North West, North East, South West, South East)
 according the approximate center point of Finnish mainland located at `26.3, 64.5` (lon-lat in decimal degrees).
 
+[1]: The locations and the age of weather stations were obtained from: http://en.ilmatieteenlaitos.fi/observation-stations
+
 ![](img/FMI_stations_70_years_older.png)
 
 In [classify_locations.py](classify_locations.py) starter-script we have given you the coordinates of 34 weather stations.
@@ -114,8 +116,6 @@ in the starter code [allocate_locations.py](allocate_locations.py).
     2. You should insert the name of the station into the correct geographical zone list (step 1)
  3. Print out the names of stations at each geographical zone
  4. **Optional:** Calculate and print the share of stations at each zone (the total number of stations equals to 100 %)
-
-[1]: The locations and the age of weather stations were obtained from: http://en.ilmatieteenlaitos.fi/observation-stations
 
 ## Extra Problem - Nested `for` loops
 In addition to having single `for` loops that iterate across some variable range, it is possible to *nest* `for` loops within one another.
