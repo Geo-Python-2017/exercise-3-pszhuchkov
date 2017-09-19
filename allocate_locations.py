@@ -12,7 +12,7 @@ Note:
     The data only includes stations that were operative 70 years ago (started before 1948).   
 
 Limitations:
-    -
+    The script will produce and error before step 3 has been solved. 
 
 Usage:
     ./allocate_locations.py
@@ -23,6 +23,9 @@ Author:
 Modified by:
     None
 """
+
+# Data for the exercise
+# =====================
 
 # Station names
 stations = ['Hanko Russarö', 'Heinola Asemantaus', 'Helsinki Kaisaniemi', 
@@ -50,6 +53,58 @@ lon = [22.95, 26.05, 24.94, 25.05, 24.8, 26.09, 29.23, 25.67,
        25.09, 27.8, 30.35, 27.9, 26.42, 21.75, 26.42, 27.22, 
        24.4, 24.65]
 
-# 
+# Cutoff values that correspond to the centroid of Finnish mainland
+# North - South
+NScutoff = 64.5
+# East-West
+EWcutoff = 26.3
+
+# Step 1. Create lists for geographical zones (North-West, North-East, South-West, South-East)
+# ---------------------------------------------------------------------------------------------
+# Add your code here
+
+# Step 2. Make a loop that iterates N number of times. 
+# N should be based on the number of stations that we have here. 
+# --------------------------------------------------------------
+# Add your code here
+    
+
+    # Steps 2.1-2.2 - Make conditional statements to add the station to correct zone -list
+    # You should determine if 
+    # a) the lat coordinate is North or South of the center latitude (stored in NScutoff variable)
+    # AND 
+    # b) if the lon coordinate is East or West of the center longitude (stored in EWcutoff variable)
+    # c) Based on the criteria you should add the NAME of the station (from stations -list) to correct list (done in step 1)
+    
+    
+    # Add your code here
+    
+
+# Step 3 - Print the station names at each geographical zone
+# ----------------------------------------------------------
+
+# Replace the XXX with your list names
+print("The names of the North-West stations are:\n", XXX)
+print("The names of the North-East stations are:\n", XXX)
+print("The names of the South-West stations are:\n", XXX)
+print("The names of the South-East stations are:\n", XXX)
+
+# Step 4 (optional) - Print the share of stations at each geographical zone (in percentages)
+# ------------------------------------------------------------------------------------------
+
+# Step 4.1 - Calculate the share for different zones
+# Fix the code (replace 0.0 with the result of the calculation)
+nw_share = 0.0
+ne_share = 0.0
+sw_share = 0.0
+se_share = 0.0
+
+# Print the information (you don't need to modify this)
+print("North-West contains", nw_share, "% of all stations.")
+print("North-East contains", ne_share, "% of all stations.")
+print("South-West contains", sw_share, "% of all stations.")
+print("South-East contains", se_share, "% of all stations.")        
+
+
 
 

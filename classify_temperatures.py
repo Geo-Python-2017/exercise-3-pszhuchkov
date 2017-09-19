@@ -57,7 +57,7 @@ temperatures = [-5.4, 1.0, -1.3, -4.8, 3.9, 0.1, -4.4, 4.0, -2.2, -3.9, 4.4,
 # Task 3 - Questions - Print the answers
 # --------------------------------------
 
-# 1. How many times was it slippery during the sudy period?
+# 1. How many times was it slippery during the study period?
 
 # Edit these variable (i.e. replace XXX) by finding out how many values are withing different lists
 slippery_times = XXX

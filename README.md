@@ -92,7 +92,7 @@ from coordinate lists, and the name of that station from `stations` list at inde
   ```
 
 **Overview**: In this problem your job is to count the number of weather stations located in different zones. You should also report the share
-of weather stations that allocated to each zone that could be used to evaluate if certain zone was over/under-represented seventy years ago.
+of weather stations that allocated to each zone that could be used to evaluate if certain zone was over/under-represented seventy years ago (optional).
 
 To solve this problem, you should modify and fill in the missing parts
 in the starter code [allocate_locations.py](allocate_locations.py).
@@ -100,11 +100,11 @@ in the starter code [allocate_locations.py](allocate_locations.py).
 **In general, the script should do following (also the criteria for grading):**
 
  1. Create four lists for geographical zones in Finland (i.e. NW, NW, SW, SE)
- 2. Iterate over coordinates and determine to which geographical zone the station belongs
+ 2. Iterate over values and determine to which geographical zone the station belongs
     1. You should use a conditional statement to find out if the latitude coordinate of a station is either North or South of the center point of Finland (`26.3, 64.5`) **AND** if the longitude location is West or East from that center point.
     2. You should insert the name of the station into the correct geographical zone list (step 1)
  3. Print out the names of stations at each geographical zone
- 4. Calculate and print the share of stations at each zone (the total number of stations equals to 100 %)
+ 4. Optional: Calculate and print the share of stations at each zone (the total number of stations equals to 100 %)
 
 [1]: The locations and the age of weather stations were obtained from: http://en.ilmatieteenlaitos.fi/observation-stations
 
