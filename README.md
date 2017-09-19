@@ -3,7 +3,12 @@
 The exercise for this week is meant to help you to understand `for` loops and conditional statements in Python.
 Below you have a series of problems in which you are asked to create new script files and write the code necessary to produce the desired results.
 After making your changes, you will need to upload these files to GitHub.
-The answers to the questions in this week's exercise should be given by modifying the end of this document in the [section titled Answers](#answers).
+Answering to the questions in this week's exercise should be given by modifying the end of this document in the [section titled Answers](#answers).
+
+**Contents:**
+ - [Problem 1 - Batch processing]()
+ - [Problem 2 - Classifying temperatures]()
+ - [Problem 3 - Allocating locations]()
 
 ## Problem 1 - Batch processing data files with a `for` loop (**4 Points**)
 
@@ -28,9 +33,9 @@ For this problem you will need to create a new script file `station_name_generat
 
 **Your score on this problem will be based on following criteria:**
 
- - Create and use variables to produce the desired text format
- - Successfully use for loop to iterate over desired set of numbers
- - Successfully produce the desired filename
+ - Creating and using variables to produce the desired text format
+ - Successfully using for loop to iterate over desired set of numbers
+ - Successfully producing the desired filename
  - Having your script printing all filenames as shown above
  - Including comments that explain what most lines in the code do
  - Uploading your script to your GitHub repository for this week's lesson with the name `station_name_generator.py`.
@@ -51,25 +56,26 @@ one additional task (Task 4) that is **optional** for the students that are quic
 
 **Your score on this problem will be based on following criteria:**
 
- - Use for loop to iterate over the temperature values
- - Use conditional statements to find out if a value is within certain value range
- - Print information for the user
+ - Using for loop to iterate over the temperature values
+ - Using conditional statements to find out if a value is within certain value range
+ - Printing information for the user
  - Including comments that explain what most lines in the code do
  - Uploading your script to your GitHub repository for this week's lesson with the name `station_name_generator.py`.
 
-## Problem 3 - Classifying locations (**8 points**)
+## Problem 3 - Allocating locations (**8 points**)
 
 Following map shows the locations of the weather stations (as blue points) in Finland that are more than 70 years old [1].
 In this problem we are interested to find out whether the station network was equally distributed across Finland
 fifty years ago. We have divided Finland into four geographical zones (i.e. North West, North East, South West, South East)
 according the approximate center point of Finnish mainland located at `26.3, 64.5` (lon-lat in decimal degrees).
 
-![](img/FMI_stations_50_years_older.png)
+![](img/FMI_stations_70_years_older.png)
 
 In [classify_locations.py](classify_locations.py) starter-script we have given you the coordinates of 34 weather stations.
 The location of a single station is determined with a pair of latitude and longitude coordinates.
 The coordinates of all the stations are separated into two lists (`lat` and `lon`) and the names of the stations are in `stations`
-list:
+list. From these lists, you would get e.g. the location of the first station by combining the latitude and longitude coordinates
+from coordinate lists, and the name of that station from `stations` list at index[0]:
 
   ```python
   # Example showing the information for the first 8 stations
@@ -84,16 +90,13 @@ list:
   lon = [22.95, 26.05, 24.94, 25.05, 24.8, 26.09, 29.23, 25.67]
   ```
 
-From these lists, you would get e.g. the location of the first station by combining the latitude and longitude coordinates
-from coordinate lists, and the name of that station from `stations` list at index[0].
-
 **Overview**: In this problem your job is to count the number of weather stations located in different zones. You should also report the share
-of weather stations that each zone has that could be used to evaluate if certain zone was over/under-represented fifty years ago.
+of weather stations that allocated to each zone that could be used to evaluate if certain zone was over/under-represented seventy years ago.
 
 To solve this problem, you should modify and fill in the missing parts
 in the starter code [classify_locations.py](classify_locations.py).
 
-**In general, the script should do following (criteria for grading):**
+**In general, the script should do following (also the criteria for grading):**
 
  1. Create four lists for geographical zones in Finland (i.e. NW, NW, SW, SE)
 
@@ -156,15 +159,8 @@ For this problem you should create a new Python script `make_flag.py` that does 
     -------------------
     ```
 
-### Questions for Extra Problem
-1. If faced with having to reproduce the character patterns in this exercise with a Python script any way you can, how might you approach this problem differently? For example, let's say you did not need to use the variables `star = "*"` and `line = "-"`.
-2. Using nested loops is very common for Python scripts that deal with two-dimensional data such as latitude and longitude, or depth versus distance. Can you think of any cases in which you might use a nested loop in a Python script?
-
-### Questions for Problem 3
-1. Did you use any `elif` statements in your Python code? If so, can you think of any way in which you could rewrite you code without using `elif` statements? If not, can you think of any way in which you could rewrite your code to include them?
-2. Why did you choose to include or not include `elif` statements in your code? Did it make more sense to use to use them, or was it easier to write your code without?
-
 ## General tips
+
 1. Create a general template for your new script files and commit it to GitHub right when you start working on your script(s).
 2. Your scripts should also follow the format described earlier in the course with a block comment at the start of the file, inline comments describing how it works and good use of blank lines to make the code easy to read.
 3. Look carefully at the requirements for each exercise and be sure to follow them.

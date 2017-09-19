@@ -19,7 +19,7 @@ stations = ['Hanko Russarö', 'Heinola Asemantaus', 'Helsinki Kaisaniemi',
             'Tohmajärvi Kemie', 'Utsjoki Nuorgam', 'Vaala Pelso', 'Vaasa airport', 
             'Vesanto Sonkari', 'Vieremä Kaarakkala', 'Vihti Maasoja', 'Ylitornio Meltosjärvi']
 
-# Latitude coordinates of Weather stations 
+# Latitude coordinates of Weather stations  
 lat = [59.77, 61.2, 60.18, 60.25, 60.6, 61.88, 63.23, 62.4,
        60.39, 63.12, 65.78, 60.38, 60.7, 60.9, 63.14, 65.99,
        63.32, 63.44, 59.78, 61.47, 66.58, 60.37, 61.8, 62.94,
