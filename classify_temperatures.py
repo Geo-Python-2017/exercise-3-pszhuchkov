@@ -14,10 +14,11 @@ Note:
     "Helsinki" has been removed from the station name for simplicity.
 
 Limitations:
-    This code will not work if the station is not in list of station names.
+    This code will not work if the temperatures are not classified, and the information in Task 3
+    are not solved.
 
 Usage:
-    ./station_ages.py
+    ./classify_temperatures.py
 
 Author:
     Henrikki Tenkanen - 19.9.2017
@@ -62,6 +63,7 @@ temperatures = [-5.4, 1.0, -1.3, -4.8, 3.9, 0.1, -4.4, 4.0, -2.2, -3.9, 4.4,
 
 # 1. How many times was it slippery during the sudy period?
 
+# Edit these variable (i.e. replace XXX) by finding out how many values are withing different lists
 slippery_times = XXX
 print("In April 2013 it was slippery ", slippery_times, "times.")
 
@@ -75,7 +77,7 @@ print("In April 2013 it was cold ", cold_times, "times.")
 
 
 
-# Task 3 - EXTRA (optional)
+# Task 4 - EXTRA (optional)
 # --------------------------
 
 # Data values in the 'temperatures' list are grouped in a way that three values always comprise
@@ -93,8 +95,10 @@ print("In April 2013 it was cold ", cold_times, "times.")
 
 # Add your code here
 
-# 3. What was the mean temperature during the daytime in April 2013?
+# 3. What was the mean day-time temperature in April 2013?
 
 # Add your code here that answers to the question
+mean_temperature = None
+print("Mean day-time temperature was", mean_temperature)
                                                          
                                                          

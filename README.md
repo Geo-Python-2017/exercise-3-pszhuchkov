@@ -14,7 +14,7 @@ For this problem you will need to create a new script file `station_name_generat
 1. Create a new variable `basename` that contains the text `"Station"`.
 2. Create a new variable `filenames` that is an empty list.
 3. Iterate over the number range 0-20 and
-  1. Create a variable `station` that contains the text from `basename` variable and
+  1. Create a variable `station` that contains the 1) text from `basename` variable, 2) the number, and 3) the file extension `.txt`
   2. Add the content of `station` to `filenames` list which should have following content in the end:
 
       ```
@@ -35,7 +35,7 @@ For this problem you will need to create a new script file `station_name_generat
  - Including comments that explain what most lines in the code do
  - Uploading your script to your GitHub repository for this week's lesson with the name `station_name_generator.py`.
 
-## Problem 2 - Classifying temperatures
+## Problem 2 - Classifying temperatures (**8 points**)
 
 This problem is meant to introduce you to a very commonly used and useful concept of data classification.
 In this problem your aim is to classify daily temperatures stored in `temperatures` list into four different classes:
@@ -46,17 +46,18 @@ In this problem your aim is to classify daily temperatures stored in `temperatur
   4. **Warm** ==> temperatures above +15 degrees (Celsius)
 
 To solve this problem, you should modify and fill in the missing parts in the starter code [classify_temperatures.py](classify_temperatures.py).
+In total, there are three tasks that you should solve according the directions in the starter-script. In addition, there is
+one additional task (Task 4) that is **optional** for the students that are quicker (*does not affect grading*).
 
 **Your score on this problem will be based on following criteria:**
 
- - Create and use variables to produce the desired text format
- - Successfully use for loop to iterate over desired set of numbers
- - Successfully produce the desired filename
- - Having your script printing all filenames as shown above
+ - Use for loop to iterate over the temperature values
+ - Use conditional statements to find out if a value is within certain value range
+ - Print information for the user
  - Including comments that explain what most lines in the code do
  - Uploading your script to your GitHub repository for this week's lesson with the name `station_name_generator.py`.
 
-## Problem 3 - Classifying locations
+## Problem 3 - Classifying locations (**8 points**)
 
 Following map shows the locations of the weather stations (as blue points) in Finland that are more than 70 years old [1].
 In this problem we are interested to find out whether the station network was equally distributed across Finland
@@ -90,7 +91,9 @@ from coordinate lists, and the name of that station from `stations` list at inde
 of weather stations that each zone has that could be used to evaluate if certain zone was over/under-represented fifty years ago.
 
 To solve this problem, you should modify and fill in the missing parts
-in the starter code [classify_locations.py](classify_locations.py). The script should do following:
+in the starter code [classify_locations.py](classify_locations.py).
+
+**In general, the script should do following (criteria for grading):**
 
  1. Create four lists for geographical zones in Finland (i.e. NW, NW, SW, SE)
 
