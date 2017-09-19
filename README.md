@@ -88,7 +88,7 @@ according the approximate center point of Finnish mainland located at `26.3, 64.
 
 ![](img/FMI_stations_70_years_older.png)
 
-In [classify_locations.py](classify_locations.py) starter-script we have given you the coordinates of 34 weather stations.
+In [allocate_locations.py](allocate_locations.py) starter-script we have given you the coordinates of 34 weather stations.
 The location of a single station is determined with a pair of latitude and longitude coordinates.
 The coordinates of all the stations are separated into two lists (`lat` and `lon`) and the names of the stations are in `stations`
 list. From these lists, you would get e.g. the location of the first station by combining the latitude and longitude coordinates
