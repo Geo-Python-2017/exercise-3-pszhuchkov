@@ -59,15 +59,19 @@ Fill in the missing parts in the starter code [classify_temperatures.py](classif
 
 ## Problem 3 - Classifying locations
 
-This problem continues our classification theme from the geographical perspective.
-
-Following map shows the locations of the weather stations (blue points) in Finland that are older than 50 years.
-In this problem we are interested to classify those stations
+Following map shows the locations of the weather stations (as blue points) in Finland that are more than 50 years old [1].
+In this problem we are interested to find out whether the station network was equally distributed across Finland
+fifty years ago. We have divided Finland into four geographical zones (i.e. North West, North East, South West, South East)
+according the approximate center point of Finnish mainland at 64.5 (latitude) and 26.3 (longitude).
 
 ![](img/FMI_stations_50_years_older.png)
 
 
+Your job is to count the number of weather stations located in different zones. You should also report the share
+of weather stations that each zone has so we can evaluate if certain zone was over/under-represented fifty years ago.
 
+
+[1]: The locations and the age of weather stations were obtained from: http://en.ilmatieteenlaitos.fi/observation-stations
 
 ## Extra Problem - Nested `for` loops
 In addition to having single `for` loops that iterate across some variable range, it is possible to *nest* `for` loops within one another.
@@ -119,26 +123,6 @@ For this problem you should create a new Python script `make_flag.py` that does 
 ### Questions for Extra Problem
 1. If faced with having to reproduce the character patterns in this exercise with a Python script any way you can, how might you approach this problem differently? For example, let's say you did not need to use the variables `star = "*"` and `line = "-"`.
 2. Using nested loops is very common for Python scripts that deal with two-dimensional data such as latitude and longitude, or depth versus distance. Can you think of any cases in which you might use a nested loop in a Python script?
-
-## Problem 3 - Working with projections using conditional statements
-
-In Python there is a handy way of asking input from the user using `input` function such as:
-
-   ```python
-   >>> name = input('Please tell me your name:\n')
-   Please tell me your name:
-   Henrikki
-   >>> print("Hello", name)
-   Hello Henrikki
-   ```
-
-Your job in this problem is to create a new Python script `epsg_finder.py` that:
-
-1. Asks the user for an input value by displaying the text "What is the EPSG value of the input shapefile?"
-  - If the user says `4326`, the program prints "EPSG value 4326 corresponds to WGS84" to the screen
-  - If the user says `3067`, the program prints “EPSG value 3067 corresponds to ETRS-TM35FIN" to the screen
-  - If the user says `2392`, the program prints “EPSG value 2392 corresponds to KKJ / Finland zone2" to the screen
-  - If the user enters any other value, the program should print "There are so many spatial references..I don’t know them all, sorry." to the screen
 
 ### Questions for Problem 3
 1. Did you use any `elif` statements in your Python code? If so, can you think of any way in which you could rewrite you code without using `elif` statements? If not, can you think of any way in which you could rewrite your code to include them?
