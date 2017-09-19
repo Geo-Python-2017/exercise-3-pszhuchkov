@@ -41,10 +41,10 @@ For this problem you will need to create a new script file `station_name_generat
 This problem is meant to introduce you to a very commonly used and useful concept of data classification.
 In this problem your aim is to classify daily temperatures stored in `temperatures` list into four different classes:
 
-  1. Cold :arrow_right: temperatures below -2 degrees (Celsius)
-  2. Slippery --> temperatures between -2 and +2 degrees (Celsius)
-  3. Comfortable --> temperatures between +2 and +15 degrees (Celsius)
-  4. Warm --> temperatures above +15 degrees (Celsius)
+  1. **Cold** ==> temperatures below -2 degrees (Celsius)
+  2. **Slippery** ==> temperatures between -2 and +2 degrees (Celsius)
+  3. **Comfortable** ==> temperatures between +2 and +15 degrees (Celsius)
+  4. **Warm** ==> temperatures above +15 degrees (Celsius)
 
 Fill in the missing parts in the starter code [classify_temperatures.py](classify_temperatures.py).
 
