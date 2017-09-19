@@ -101,7 +101,7 @@ from coordinate lists, and the name of that station from `stations` list at inde
   lon = [22.95, 26.05, 24.94, 25.05, 24.8, 26.09, 29.23, 25.67]
   ```
 
-**Overview**: In this problem your job is to count the number of weather stations located in different zones. **Optionally** you should also report the share
+**Overview**: In this problem your job is to print the names of weather stations located in different zones. **Optionally** you should also report the share
 of weather stations that allocated to each zone that could be used to evaluate if certain zone was over/under-represented seventy years ago
 (optional task).
 
