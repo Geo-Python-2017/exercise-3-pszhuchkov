@@ -95,7 +95,7 @@ from coordinate lists, and the name of that station from `stations` list at inde
 of weather stations that allocated to each zone that could be used to evaluate if certain zone was over/under-represented seventy years ago.
 
 To solve this problem, you should modify and fill in the missing parts
-in the starter code [classify_locations.py](classify_locations.py).
+in the starter code [allocate_locations.py](allocate_locations.py).
 
 **In general, the script should do following (also the criteria for grading):**
 

@@ -23,8 +23,6 @@ Author:
 
 Modified by:
     None
-
-
 """
 
 # A list of night-time (00-08), day-time (08-16) and evening (16-24) temperatures for April 2013 

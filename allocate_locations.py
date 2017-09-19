@@ -1,10 +1,27 @@
 # -*- coding: utf-8 -*-
 """
-Classify locations.
+Prints the names of FMI weather stations separated into four geographical zones in Finland (NW, NE, SW, SE) based on
+the coordinates of the stations. Additionally, prints the information about the how equally distributed the station
+network is in Finland. 
 
-Created on Tue Sep 19 11:19:21 2017
+Description:
+    This script is only a test for a planned version that would read in all operative station data 
+    from a file and allow users to analyze also analyze weather observations from those stations. 
 
-@author: Henrikki Tenkanen
+Note:
+    The data only includes stations that were operative 70 years ago (started before 1948).   
+
+Limitations:
+    -
+
+Usage:
+    ./allocate_locations.py
+
+Author:
+    Henrikki Tenkanen - 19.9.2017
+
+Modified by:
+    None
 """
 
 # Station names
