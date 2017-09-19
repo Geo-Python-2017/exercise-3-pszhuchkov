@@ -5,7 +5,8 @@ Below you have a series of problems in which you are asked to create new script 
 After making your changes, you will need to upload these files to GitHub.
 The answers to the questions in this week's exercise should be given by modifying the end of this document in the [section titled Answers](#answers).
 
-## Problem 1 - Batch processing data files with a `for` loop
+## Problem 1 - Batch processing data files with a `for` loop (**4 Points**)
+
 This problem is meant to simulate a common problem dealing with data files: batch processing.
 Batch processing involves using scripts to process many data files, and one common task is generating a list of filenames that will be processed.
 For this problem you will need to create a new script file `station_name_generator.py` that does the following:
@@ -26,8 +27,14 @@ For this problem you will need to create a new script file `station_name_generat
       ```
 
 
-### Questions for Problem 1
-1. How could you benefit of having a list of filenames (e.g., `filenames`)?
+**Your score on this problem will be based on following criteria:**
+
+ - Create and use variables to produce the desired text format
+ - Successfully use for loop to iterate over desired set of numbers
+ - Successfully produce the desired filename
+ - Having your script printing all filenames as shown above
+ - Including comments that explain what most lines in the code do
+ - Uploading your script to your GitHub repository for this week's lesson with the name `station_name_generator.py`.
 
 ## Problem 2 - Classifying temperatures
 
@@ -39,11 +46,24 @@ In this problem your aim is to classify daily temperatures stored in `temperatur
   3. Comfortable --> temperatures between +2 and +15 degrees (Celsius)
   4. Warm --> temperatures above +15 degrees (Celsius)
 
-Fill in the missing parts in the starter code [classify_temperatures.py](classify_temperatures.py)
+Fill in the missing parts in the starter code [classify_temperatures.py](classify_temperatures.py).
+
+**Your score on this problem will be based on following criteria:**
+
+ - Create and use variables to produce the desired text format
+ - Successfully use for loop to iterate over desired set of numbers
+ - Successfully produce the desired filename
+ - Having your script printing all filenames as shown above
+ - Including comments that explain what most lines in the code do
+ - Uploading your script to your GitHub repository for this week's lesson with the name `station_name_generator.py`.
 
 ## Problem 3 - Classifying locations
 
-This problem continues our classification theme from the perspective of geography.
+This problem continues our classification theme from the geographical perspective. The following map shows the locations
+of the weather stations in Finland that are older than 50 years.
+
+[](img/FMI_stations_50_years_older.png)
+
 
 
 
