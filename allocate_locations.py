@@ -68,8 +68,12 @@ EWcutoff = 26.3
 # --------------------------------------------------------------
 # Add your code here
     
+    # Step 2.1 - Find out the latitude, longitude and the name of the station
 
-    # Steps 2.1-2.2 - Make conditional statements to add the station to correct zone -list
+    # Add your code here
+
+
+    # Steps 2.2-2.3 - Make conditional statements to add the station to correct zone -list
     # You should determine if 
     # a) the lat coordinate is North or South of the center latitude (stored in NScutoff variable)
     # AND 
