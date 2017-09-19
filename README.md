@@ -67,7 +67,7 @@ one additional task (Task 4) that is **optional** for the students that are quic
 
 Following map shows the locations of the weather stations (as blue points) in Finland that are more than 70 years old [1].
 In this problem we are interested to find out whether the station network was equally distributed across Finland
-fifty years ago. We have divided Finland into four geographical zones (i.e. North West, North East, South West, South East)
+seventy years ago. We have divided Finland into four geographical zones (i.e. North West, North East, South West, South East)
 according the approximate center point of Finnish mainland located at `26.3, 64.5` (lon-lat in decimal degrees).
 
 ![](img/FMI_stations_70_years_older.png)
@@ -102,11 +102,10 @@ in the starter code [classify_locations.py](classify_locations.py).
  1. Create four lists for geographical zones in Finland (i.e. NW, NW, SW, SE)
 
  2. Iterate over coordinates and determine to which geographical zone the station belongs
-
-   2.1 You should use a conditional statement to find out if the latitude coordinate of a station
+   1. You should use a conditional statement to find out if the latitude coordinate of a station
        is either North or South of the center point of Finland (`26.3, 64.5`) **AND** if the longitude location
        is West or East from that center point.
-   2.2 You should insert the name of the station into the correct geographical zone list (step 1)
+   2. You should insert the name of the station into the correct geographical zone list (step 1)
 
  3. Print out the names of stations at each geographical zone
  4. Calculate and print the share of stations at each zone (the total number of stations equals to 100 %)
