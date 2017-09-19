@@ -84,10 +84,10 @@ from coordinate lists, and the name of that station from `stations` list at inde
             'Helsinki Malmi airfield', 'Hyvinkää Hyvinkäänkylä', 'Joutsa Savenaho',
             'Juuka Niemelä', 'Jyväskylä airport']
 
-  # Latitude coordinates
+  # Latitude coordinates (North - South)
   lat = [59.77, 61.2, 60.18, 60.25, 60.6, 61.88, 63.23, 62.4]
 
-  # Longitude coordinates
+  # Longitude coordinates (West - East)
   lon = [22.95, 26.05, 24.94, 25.05, 24.8, 26.09, 29.23, 25.67]
   ```
 

@@ -1,17 +1,15 @@
 # -*- coding: utf-8 -*-
 """
-Prints the years since an FMI observation station has begun operation.
+Prints the temperatures of different temperature classes based on FMI observations from Helsinki Malmi airport station.
 
 Description:
-    This script is only a test for a planned version that would read in station
-    information from a file and allow users to get the operational ages of any
-    observation station in the FMI network. Currently, the user should specify
-    the desired station at the start of the script as input and the age is
-    written to the screen as output.
+    This script is only a test for a planned version that would read in temperature
+    information from a file and allow users to analyze hourly-based temperature observations 
+    in the FMI network. 
 
 Note:
-    All of the stations in this test version of the script are in Helsinki, so
-    "Helsinki" has been removed from the station name for simplicity.
+    The data has been aggregated from hourly based data into a night-time, day-time and evening time average 
+    temperatures. 
 
 Limitations:
     This code will not work if the temperatures are not classified, and the information in Task 3
