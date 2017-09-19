@@ -5,6 +5,12 @@ Below you have a series of problems in which you are asked to create (or edit) s
 After making your changes, you will need to upload these files to GitHub.
 Answering to the questions in this week's exercise should be given by modifying the end of this document in the [section titled Answers](#answers).
 
+- **Exercise 3 is due by the start of lecture on 27.9**.
+
+- Don't forget to check out the [hints for this week's exercise](https://geo-python.github.io/2017/lessons/L2/exercise-3-hints.html) if you're having trouble.
+
+- Scores on this exercise are out of **20 points**.
+
 **Contents:**
  - [Problem 0 - Initialize Grading repository](#problem-0---initialize-grading-repository)
  - [Problem 1 - Batch processing](#problem-1---batch-processing-data-files-with-a-for-loop-4-points)
@@ -17,7 +23,7 @@ Answering to the questions in this week's exercise should be given by modifying 
 We will gather all your results of the course to a single repository where you can easily follow
 how many points you have received from the exercises.
 
-Initilize your grading repository by accepting [this Classroom]().
+Initilize your grading repository by accepting [this Classroom](https://classroom.github.com/a/19wUpQ4S).
 
 ## Problem 1 - Batch processing data files with a `for` loop (**4 Points**)
 
@@ -163,20 +169,3 @@ For this problem you should create a new Python script `make_flag.py` that does 
     -------------------
     -------------------
     ```
-
-## General tips
-
-1. Create a general template for your new script files and commit it to GitHub right when you start working on your script(s).
-2. Your scripts should also follow the format described earlier in the course with a block comment at the start of the file, inline comments describing how it works and good use of blank lines to make the code easy to read.
-3. Look carefully at the requirements for each exercise and be sure to follow them.
-4. In case you have forgotten, string variables can be added together. For example,
-
-    ```python
-    >>> a = "Taco "
-    >>> b = "time"
-    >>> c = a + b
-    >>> print(c)
-    Taco time
-    ```
-5. The questions after the exercises do not necessarily have correct or incorrect answers, but they are meant to make you think a bit about how you have written your scripts and how they might be applied to your own data/research/studies.
-
