@@ -8,41 +8,46 @@ The answers to the questions in this week's exercise should be given by modifyin
 ## Problem 1 - Batch processing data files with a `for` loop
 This problem is meant to simulate a common problem dealing with data files: batch processing.
 Batch processing involves using scripts to process many data files, and one common task is generating a list of filenames that will be processed.
-For this problem you will need to create a new script file `animal_file_generator.py` that does the following:
+For this problem you will need to create a new script file `station_name_generator.py` that does the following:
 
-1. Creates a new variable `basename` that contains the text `"Animal"`.
-2. Creates a new variable `filenames` that contains the text `""`.
-3. Iterates over the number range 0-30 and
-  1. Prints the value in `basename` with the numbers in the range to the screen as follows:
+1. Create a new variable `basename` that contains the text `"Station"`.
+2. Create a new variable `filenames` that is an empty list.
+3. Iterate over the number range 0-20 and
+  1. Create a variable `station` that contains the text from `basename` variable and
+  2. Add the content of `station` to `filenames` list which should have following content in the end:
 
       ```
-      Animal_0
-      Animal_1
-      Animal_2
-      ...
-      Animal_30
+      ['Station_0.txt', 'Station_1.txt', 'Station_2.txt', 'Station_3.txt',
+       'Station_4.txt', 'Station_5.txt', 'Station_6.txt', 'Station_7.txt',
+       'Station_8.txt', 'Station_9.txt', 'Station_10.txt', 'Station_11.txt',
+       'Station_12.txt', 'Station_13.txt', 'Station_14.txt', 'Station_15.txt',
+       'Station_16.txt', 'Station_17.txt', 'Station_18.txt', 'Station_19.txt',
+       'Station_20.txt']
       ```
-      You will most likely need to use the built-in `str()` function to produce this output. You can learn about how `str()` works by typing `help(str)` in an IPython interpreter window.
-  2. Modifies the value in `filenames` to contain the output above plus the file extension for a shapefile `.shp`.
-  You must also include a special escape character `\n` to indicate a break in the line after each listed shapefile name.
 
-At the end of the script the variable `filenames` should include a complete list of the different Animal filenames.
-The output of `print(filenames)` in your script should be
-
-```
-Animal_0.shp
-Animal_1.shp
-Animal_2.shp
-...
-Animal_30.shp
-```
 
 ### Questions for Problem 1
-1. What could be some advantages of using a string variable (e.g., `filenames`) to contain a list of files?
-2. What are some disadvantages of using a string variable for a list of files, in contrast to a Python list variable?
-3. Can you think of any cases where **you** might use a list of filenames like we generate in this exercise?
+1. How could you benefit of having a list of filenames (e.g., `filenames`)?
 
-## Problem 2 - Nested `for` loops
+## Problem 2 - Classifying temperatures
+
+This problem is meant to introduce you to a very commonly used and useful concept of data classification.
+In this problem your aim is to classify daily temperatures stored in `temperatures` list into four different classes:
+
+  1. Cold --> temperatures below -2 degrees (Celsius)
+  2. Slippery --> temperatures between -2 and +2 degrees (Celsius)
+  3. Comfortable --> temperatures between +2 and +15 degrees (Celsius)
+  4. Warm --> temperatures above +15 degrees (Celsius)
+
+Fill in the missing parts in the starter code [classify_temperatures.py](classify_temperatures.py)
+
+## Problem 3 - Classifying locations
+
+This problem continues our classification theme from the perspective of geography.
+
+
+
+## Extra Problem - Nested `for` loops
 In addition to having single `for` loops that iterate across some variable range, it is possible to *nest* `for` loops within one another.
 Consider the example below:
 
@@ -60,6 +65,7 @@ Consider the example below:
     g a
     g t
 ```
+
 Here, you can see that in the first pass through the first `for` loop, the value of `char` is `d`.
 Entering the inner (or nested) loop, `char2` is set to `c`.
 After this, the output is written to the screen and since there are more letters to loop over in the inner `for` loop, the value of `char2` will be updated upon the next pass.
@@ -77,7 +83,7 @@ For this problem you should create a new Python script `make_flag.py` that does 
     *******
     *******
     ```
-3. Creates a varaiable `line` with text `"-"` and an empty string variable `flag`.
+3. Creates a variable `line` with text `"-"` and an empty string variable `flag`.
 4. Uses nested `for` loops and the variables above to produce the text formation below when `print(flag)` is run at the end of your script. **Note**: You will need to use conditional statements to produce the desired output.
 
     ```
@@ -88,7 +94,7 @@ For this problem you should create a new Python script `make_flag.py` that does 
     -------------------
     ```
 
-### Questions for Problem 2
+### Questions for Extra Problem
 1. If faced with having to reproduce the character patterns in this exercise with a Python script any way you can, how might you approach this problem differently? For example, let's say you did not need to use the variables `star = "*"` and `line = "-"`.
 2. Using nested loops is very common for Python scripts that deal with two-dimensional data such as latitude and longitude, or depth versus distance. Can you think of any cases in which you might use a nested loop in a Python script?
 
