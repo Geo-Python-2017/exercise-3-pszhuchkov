@@ -123,7 +123,7 @@ in the starter code [allocate_locations.py](allocate_locations.py).
  3. Print out the names of stations at each geographical zone
  4. **Optional:** Calculate and print the share of stations at each zone (the total number of stations equals to 100 %)
 
-## Extra Problem - Nested `for` loops
+## Extra Problem (optional) - Nested `for` loops
 In addition to having single `for` loops that iterate across some variable range, it is possible to *nest* `for` loops within one another.
 Consider the example below:
 
