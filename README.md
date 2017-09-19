@@ -62,7 +62,7 @@ Fill in the missing parts in the starter code [classify_temperatures.py](classif
 This problem continues our classification theme from the geographical perspective. The following map shows the locations
 of the weather stations in Finland that are older than 50 years.
 
-[](img/FMI_stations_50_years_older.png)
+![](img/FMI_stations_50_years_older.png)
 
 
 
