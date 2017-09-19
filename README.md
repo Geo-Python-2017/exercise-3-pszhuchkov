@@ -6,9 +6,10 @@ After making your changes, you will need to upload these files to GitHub.
 Answering to the questions in this week's exercise should be given by modifying the end of this document in the [section titled Answers](#answers).
 
 **Contents:**
- - [Problem 1 - Batch processing]()
- - [Problem 2 - Classifying temperatures]()
- - [Problem 3 - Allocating locations]()
+ - [Problem 1 - Batch processing](#problem-1---batch-processing-data-files-with-a-for-loop-4-points)
+ - [Problem 2 - Classifying temperatures](#problem-2---classifying-temperatures-8-points)
+ - [Problem 3 - Allocating locations](#problem-3---allocating-locations-8-points)
+ - [Extra problem (optional)](#extra-problem---nested-for-loops)
 
 ## Problem 1 - Batch processing data files with a `for` loop (**4 Points**)
 
