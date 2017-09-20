@@ -63,9 +63,9 @@ temperatures = [-5.4, 1.0, -1.3, -4.8, 3.9, 0.1, -4.4, 4.0, -2.2, -3.9, 4.4,
 slippery_times = XXX
 print("In April 2013 it was slippery ", slippery_times, "times.")
 
-# 2. How many times was it warmish?
+# 2. How many times was it warm?
 warm_times = XXX
-print("In April 2013 it was warmish ", warm_times, "times.")
+print("In April 2013 it was warm ", warm_times, "times.")
 
 # 3. How many times was it cold?
 cold_times = XXX
