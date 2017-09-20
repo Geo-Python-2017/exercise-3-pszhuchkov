@@ -37,7 +37,7 @@ temperatures = [-5.4, 1.0, -1.3, -4.8, 3.9, 0.1, -4.4, 4.0, -2.2, -3.9, 4.4,
                 -0.0, 7.3, 3.4, 4.7, 9.3, 6.4, 5.4, 7.6, 5.2]
 
 # Task 1 - Create empty lists for different temperature classes
-# i.e. freezing, cold, slippery, comfortable, warmish, warm
+# i.e. cold, slippery, comfortable, warm
 # -------------------------------------------------------------
 
 # Add your code here.
