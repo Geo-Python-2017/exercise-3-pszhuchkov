@@ -3,7 +3,7 @@
 The exercise for this week is meant to help you to understand `for` loops and conditional statements in Python.
 Below you have a series of problems in which you are asked to create (or edit) script files and write the code necessary to produce the desired results.
 After making your changes, you will need to upload these files to GitHub.
-Answering to the questions in this week's exercise should be given by modifying the end of this document in the [section titled Answers](#answers).
+
 
 - **Exercise 3 is due by the start of lecture on 27.9**.
 
