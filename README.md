@@ -7,7 +7,7 @@ Answering to the questions in this week's exercise should be given by modifying 
 
 - **Exercise 3 is due by the start of lecture on 27.9**.
 
-- Don't forget to check out the [hints for this week's exercise](https://geo-python.github.io/2017/lessons/L2/exercise-3-hints.html) if you're having trouble.
+- Don't forget to check out the [hints for this week's exercise](https://geo-python.github.io/2017/lessons/L3/exercise-3-hints.html) if you're having trouble.
 
 - Scores on this exercise are out of **20 points**.
 
