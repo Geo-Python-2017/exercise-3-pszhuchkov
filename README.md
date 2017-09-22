@@ -75,7 +75,7 @@ one additional task (Task 4) that is **optional** for the students that are quic
  - Using conditional statements to find out if a value is within certain value range
  - Printing information for the user
  - Including comments that explain what most lines in the code do
- - Uploading your script to your GitHub repository for this week's lesson with the name `station_name_generator.py`.
+ - Uploading your script to your GitHub repository for this week's lesson with the name `classify_temperatures.py`.
 
 ## Problem 3 - Allocating locations (**8 points**)
 
