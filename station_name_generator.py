@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Mar 17 13:07:05 2018
+The script generates a list containing filenames that will be processed.
 
-@author: Pavel
+Author: Pavel Zhuchkov
+
+Date: 17.03.2018
 """
 # Set variables
 basename = 'Station'
