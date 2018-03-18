@@ -21,7 +21,7 @@ Author:
     Henrikki Tenkanen - 19.9.2017
 
 Modified by:
-    None
+    Pavel Zhuchkov - 18.03.2018
 """
 
 # Data for the exercise
@@ -62,16 +62,23 @@ EWcutoff = 26.3
 # Step 1. Create lists for geographical zones (North-West, North-East, South-West, South-East)
 # ---------------------------------------------------------------------------------------------
 # Add your code here
+NW = []
+NE = []
+SW = []
+SE = []
 
 # Step 2. Make a loop that iterates N number of times. 
 # N should be based on the number of stations that we have here. 
 # --------------------------------------------------------------
 # Add your code here
+for i in range(len(stations)):
     
     # Step 2.1 - Find out the latitude, longitude and the name of the station
 
     # Add your code here
-
+    namestation = stations[i]
+    latstation = lat[i]
+    lonstation = lon[i]
 
     # Steps 2.2-2.3 - Make conditional statements to add the station to correct zone -list
     # You should determine if 
@@ -82,32 +89,41 @@ EWcutoff = 26.3
     
     
     # Add your code here
-    
+    if latstation > NScutoff:
+        if lonstation > EWcutoff:
+            NE.append(namestation)
+        else:
+            NW.append(namestation)
+    else:
+        if lonstation > EWcutoff:
+            SE.append(namestation)
+        else:
+            SW.append(namestation)
 
 # Step 3 - Print the station names at each geographical zone
 # ----------------------------------------------------------
 
 # Replace the XXX with your list names
-print("The names of the North-West stations are:\n", XXX)
-print("The names of the North-East stations are:\n", XXX)
-print("The names of the South-West stations are:\n", XXX)
-print("The names of the South-East stations are:\n", XXX)
+print("The names of the North-West stations are:\n", NW)
+print("The names of the North-East stations are:\n", NE)
+print("The names of the South-West stations are:\n", SW)
+print("The names of the South-East stations are:\n", SE)
 
 # Step 4 (optional) - Print the share of stations at each geographical zone (in percentages)
 # ------------------------------------------------------------------------------------------
 
 # Step 4.1 - Calculate the share for different zones
 # Fix the code (replace 0.0 with the result of the calculation)
-nw_share = 0.0
-ne_share = 0.0
-sw_share = 0.0
-se_share = 0.0
+nw_share = len(NW) / len(stations) * 100
+ne_share = len(NE) / len(stations) * 100
+sw_share = len(SW) / len(stations) * 100
+se_share = len(SE) / len(stations) * 100
 
 # Print the information (you don't need to modify this)
-print("North-West contains", nw_share, "% of all stations.")
-print("North-East contains", ne_share, "% of all stations.")
-print("South-West contains", sw_share, "% of all stations.")
-print("South-East contains", se_share, "% of all stations.")        
+print("North-West contains", round(nw_share,2), "% of all stations.")
+print("North-East contains", round(ne_share,2), "% of all stations.")
+print("South-West contains", round(sw_share,2), "% of all stations.")
+print("South-East contains", round(se_share,2), "% of all stations.")        
 
 
 
