@@ -17,8 +17,8 @@ print('Stars')
 for i in range(3):
     for j in range(7):
         text += star
-    print(text)
-    text = ''
+    text += '\n'
+print(text)
     
 print('\nFlag')
 
@@ -30,11 +30,10 @@ for i in range(5):
                 flag += star
             else:
                 flag += line
-        print(flag)
-        flag = ''
+        flag += '\n'
     else:
         for k in range(19):
             flag += line
-        print(flag)
-        flag = ''
+        flag += '\n'
+print(flag)
     
